@@ -41,4 +41,4 @@ open-in-browsers: build
 	open -a /Applications/Google\ Chrome.app test/helpers/browser.html
 
 serve:
-	./node_modules/.bin/http-server .
+	./node_modules/.bin/http-server -p 8080 -a 0.0.0.0 .

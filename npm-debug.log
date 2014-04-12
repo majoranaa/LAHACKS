@@ -1,0 +1,642 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/ubuntu/lahacks/leapjs',
+6 verbose install   [ 'ws',
+6 verbose install     'underscore',
+6 verbose install     'gl-matrix',
+6 verbose install     'browserify',
+6 verbose install     'mocha',
+6 verbose install     'mocha-phantomjs',
+6 verbose install     'phantomjs',
+6 verbose install     'uglify-js',
+6 verbose install     'chai',
+6 verbose install     'nodemon',
+6 verbose install     'jsdoc',
+6 verbose install     'http-server',
+6 verbose install     'grunt',
+6 verbose install     'grunt-browserify',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-banner',
+6 verbose install     'grunt-string-replace',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'grunt-exec' ] ]
+7 info preinstall leapjs@0.4.3
+8 warn package.json jsdoc@3.2.0-dev 'repositories' (plural) Not supported.
+8 warn package.json Please pick one as the 'repository' field
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping browserify@2.25.0 /home/ubuntu/lahacks/leapjs
+11 verbose already installed skipping underscore@1.4.4 /home/ubuntu/lahacks/leapjs
+12 verbose already installed skipping gl-matrix@2.0.0 /home/ubuntu/lahacks/leapjs
+13 verbose already installed skipping mocha@1.7.4 /home/ubuntu/lahacks/leapjs
+14 verbose already installed skipping mocha-phantomjs@3.0.0 /home/ubuntu/lahacks/leapjs
+15 verbose already installed skipping phantomjs@1.9.0-6 /home/ubuntu/lahacks/leapjs
+16 verbose already installed skipping uglify-js@2.3.6 /home/ubuntu/lahacks/leapjs
+17 verbose already installed skipping chai@1.6.1 /home/ubuntu/lahacks/leapjs
+18 verbose already installed skipping nodemon@0.7.8 /home/ubuntu/lahacks/leapjs
+19 verbose already installed skipping jsdoc@3.2.0-dev /home/ubuntu/lahacks/leapjs
+20 verbose already installed skipping http-server@* /home/ubuntu/lahacks/leapjs
+21 verbose already installed skipping grunt@~0.4.4 /home/ubuntu/lahacks/leapjs
+22 verbose cache add [ 'grunt-browserify@~2.0.1', null ]
+23 verbose cache add name=undefined spec="grunt-browserify@~2.0.1" args=["grunt-browserify@~2.0.1",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'grunt-browserify@~2.0.1',
+24 verbose parsed url   path: 'grunt-browserify@~2.0.1',
+24 verbose parsed url   href: 'grunt-browserify@~2.0.1' }
+25 verbose cache add name="grunt-browserify" spec="~2.0.1" args=["grunt-browserify","~2.0.1"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '~2.0.1',
+26 verbose parsed url   path: '~2.0.1',
+26 verbose parsed url   href: '~2.0.1' }
+27 verbose addNamed [ 'grunt-browserify', '~2.0.1' ]
+28 verbose addNamed [ null, '>=2.0.1-0 <2.1.0-0' ]
+29 verbose already installed skipping grunt-string-replace@~0.2.7 /home/ubuntu/lahacks/leapjs
+30 verbose already installed skipping grunt-contrib-uglify@0.3.3 /home/ubuntu/lahacks/leapjs
+31 verbose already installed skipping grunt-banner@~0.2.2 /home/ubuntu/lahacks/leapjs
+32 silly lockFile 49ef4ec5-grunt-browserify-2-0-1 grunt-browserify@~2.0.1
+33 verbose lock grunt-browserify@~2.0.1 /home/ubuntu/.npm/49ef4ec5-grunt-browserify-2-0-1.lock
+34 verbose already installed skipping grunt-contrib-clean@~0.5.0 /home/ubuntu/lahacks/leapjs
+35 silly addNameRange { name: 'grunt-browserify',
+35 silly addNameRange   range: '>=2.0.1-0 <2.1.0-0',
+35 silly addNameRange   hasData: false }
+36 verbose already installed skipping grunt-contrib-watch@~0.6.1 /home/ubuntu/lahacks/leapjs
+37 verbose already installed skipping load-grunt-tasks@~0.3.0 /home/ubuntu/lahacks/leapjs
+38 verbose url raw grunt-browserify
+39 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-browserify' ]
+40 verbose url resolved https://registry.npmjs.org/grunt-browserify
+41 info trying registry request attempt 1 at 11:01:13
+42 verbose etag "AR7G5C5JDBB20OSXSE5ATR9Z6"
+43 http GET https://registry.npmjs.org/grunt-browserify
+44 verbose already installed skipping ws@0.4.25 /home/ubuntu/lahacks/leapjs
+45 verbose already installed skipping grunt-exec@~0.4.5 /home/ubuntu/lahacks/leapjs
+46 http 304 https://registry.npmjs.org/grunt-browserify
+47 silly registry.get cb [ 304,
+47 silly registry.get   { date: 'Sat, 12 Apr 2014 10:55:29 GMT',
+47 silly registry.get     server: 'Apache',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     'last-modified': 'Sat, 12 Apr 2014 10:55:29 GMT',
+47 silly registry.get     'cache-control': 'max-age=1',
+47 silly registry.get     etag: '"AR7G5C5JDBB20OSXSE5ATR9Z6"',
+47 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1397300129.012238979,VS0,VE163',
+47 silly registry.get     vary: 'Accept',
+47 silly registry.get     'content-length': '0',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 verbose etag grunt-browserify from cache
+49 silly addNameRange number 2 { name: 'grunt-browserify',
+49 silly addNameRange   range: '>=2.0.1-0 <2.1.0-0',
+49 silly addNameRange   hasData: true }
+50 silly addNameRange versions [ 'grunt-browserify',
+50 silly addNameRange   [ '0.1.0',
+50 silly addNameRange     '0.1.1',
+50 silly addNameRange     '0.1.2',
+50 silly addNameRange     '0.1.3',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1',
+50 silly addNameRange     '0.2.2',
+50 silly addNameRange     '0.2.3',
+50 silly addNameRange     '0.2.4',
+50 silly addNameRange     '0.2.5',
+50 silly addNameRange     '1.0.0',
+50 silly addNameRange     '1.0.1',
+50 silly addNameRange     '1.0.2',
+50 silly addNameRange     '1.0.3',
+50 silly addNameRange     '1.0.4',
+50 silly addNameRange     '1.0.5',
+50 silly addNameRange     '1.1.1',
+50 silly addNameRange     '1.2.0',
+50 silly addNameRange     '1.2.1',
+50 silly addNameRange     '1.2.2',
+50 silly addNameRange     '1.2.3',
+50 silly addNameRange     '1.2.4',
+50 silly addNameRange     '1.2.5',
+50 silly addNameRange     '1.2.6',
+50 silly addNameRange     '1.2.7',
+50 silly addNameRange     '1.2.8',
+50 silly addNameRange     '1.2.9',
+50 silly addNameRange     '1.2.10',
+50 silly addNameRange     '1.2.11',
+50 silly addNameRange     '1.2.12',
+50 silly addNameRange     '1.3.0',
+50 silly addNameRange     '1.3.1',
+50 silly addNameRange     '1.3.2',
+50 silly addNameRange     '2.0.1',
+50 silly addNameRange     '2.0.3',
+50 silly addNameRange     '2.0.5',
+50 silly addNameRange     '2.0.6',
+50 silly addNameRange     '2.0.7' ] ]
+51 verbose addNamed [ 'grunt-browserify', '2.0.7' ]
+52 verbose addNamed [ '2.0.7', '2.0.7' ]
+53 silly lockFile 8145fb40-grunt-browserify-2-0-7 grunt-browserify@2.0.7
+54 verbose lock grunt-browserify@2.0.7 /home/ubuntu/.npm/8145fb40-grunt-browserify-2-0-7.lock
+55 silly lockFile 8145fb40-grunt-browserify-2-0-7 grunt-browserify@2.0.7
+56 silly lockFile 8145fb40-grunt-browserify-2-0-7 grunt-browserify@2.0.7
+57 silly lockFile 49ef4ec5-grunt-browserify-2-0-1 grunt-browserify@~2.0.1
+58 silly lockFile 49ef4ec5-grunt-browserify-2-0-1 grunt-browserify@~2.0.1
+59 silly resolved [ { name: 'grunt-browserify',
+59 silly resolved     description: 'Grunt task for node-browserify',
+59 silly resolved     version: '2.0.7',
+59 silly resolved     homepage: 'https://github.com/jmreidy/grunt-browserify',
+59 silly resolved     contributors: [ [Object] ],
+59 silly resolved     repository:
+59 silly resolved      { type: 'git',
+59 silly resolved        url: 'git://github.com/jmreidy/grunt-browserify.git' },
+59 silly resolved     bugs: { url: 'https://github.com/jmreidy/grunt-browserify/issues' },
+59 silly resolved     licenses: [ [Object] ],
+59 silly resolved     main: 'grunt.js',
+59 silly resolved     engines: { node: '>= 0.8.x' },
+59 silly resolved     scripts: { test: 'mocha -R spec --timeout 5000' },
+59 silly resolved     dependencies:
+59 silly resolved      { lodash: '~2.4.1',
+59 silly resolved        async: '~0.7.0',
+59 silly resolved        watchify: '~0.6.4',
+59 silly resolved        resolve: '~0.6.2',
+59 silly resolved        glob: '^3.2.9' },
+59 silly resolved     devDependencies:
+59 silly resolved      { browserify: '~3.32.1',
+59 silly resolved        'grunt-contrib-jshint': '0.1.x',
+59 silly resolved        'grunt-contrib-clean': '~0.4.0',
+59 silly resolved        sinon: '~1.9.0',
+59 silly resolved        mocha: '~1.18.0' },
+59 silly resolved     peerDependencies: { browserify: '< 4.0.0', grunt: '~0.4.0' },
+59 silly resolved     keywords: [ 'gruntplugin', 'browserify', 'grunt' ],
+59 silly resolved     readme: '[![build status](https://secure.travis-ci.org/jmreidy/grunt-browserify.png)](http://travis-ci.org/jmreidy/grunt-browserify)\n[![NPM version](https://badge.fury.io/js/grunt-browserify.png)](http://badge.fury.io/js/grunt-browserify)\n# grunt-browserify\n\nGrunt task for node-browserify.\n\n## Getting Started\nThis plugin requires [Grunt](https://gruntjs.com) `~0.4.0`.\n\nInstall this grunt plugin with:\n```shell\nnpm install grunt-browserify --save-dev\n```\n\nThen add this line to your project\'s `grunt.js` Gruntfile:\n\n```javascript\ngrunt.loadNpmTasks(\'grunt-browserify\');\n```\n\n## In the Wild\nMost simply, Browserify is a tool for taking your CommonJS-style Javascript\ncode and packaging it for use in the browser. Grunt-Browserify provides the\nglue to better integrate Browserify into your Grunt-based development workflow.\n\nFor JavaScripters unfamiliar with CJS-style code and the Node ecosystem, moving\nto Browserify can be a bit confusing. Writing your client-side code as CJS\nmodules allows for smaller, easier to understand files that perform one task\nwell. These modules, because of their simplicity, will be significantly easier\nto use across projects. CJS modules also help to expose the dependency graph\ninherent in your code, allowing you to write cleaner, more-maintainable\nmodules. As [Alex MacCaw writes](http://spinejs.com/docs/commonjs):\n>CommonJS modules are one of the best solutions to JavaScript dependency\n>management.\n\n>CommonJS modules solve JavaScript scope issues by making sure each module is\n>executed in its own namespace. Modules have to explicitly export variables\n>they want to expose to other modules, and explicitly import other modules; in\n>other words, there\'s no global namespace.\n\n(A note to AMD fans that the benefits above are not unique to the CJS\nstyle of writing JavaScript modules, but the ease-of-interoperality with\nNode.JS code is a plus of CJS.)\n\nAs you begin to write your client-side code in small, reusable modules, you\nstart to have a lot more files to manage. At the same time, you need to\nintegrate these files with other client-side libraries, some of which do not\nplay particularly nicely with a CJS module system. The simplicity provided by\nCJS modules can be lost as build complexity is increased and Browserify\ncompilation time gets out of control.\n\n\n## Documentation\nRun this task with the `grunt browserify` command. As with other Grunt plugins, the `src` and `dest` properties are most important: `src` will use the Grunt glob pattern to specify files for inclusion in the browserified package, and `dest` will specify the outfile for the compiled module.\n\nThe current version of grunt-browserify sticks as close to the core browserify API as possible. Additional functionality can be added via the rich ecosystem of browserify transforms and plugins.\n\nThe following task options are supported:\n\n#### alias\nType: `[String:String]`\n\nBrowserify can alias files or modules to a certain name. For example, `require(‘./foo’)` can be aliased to be used as `require(‘foo’)`. Aliases should be specified as `fileName:alias`.  Filenames are parsed into their full paths with `path.resolve`. Module names will be required directly.\n\n#### require\nType: `[String]`\n\nSpecifies files to be required in the browserify bundle. String filenames are parsed into their full paths with `path.resolve`.\n\n#### ignore\nType: `[String]`\n\nSpecifies files to be ignored in the browserify bundle.\nString filenames are parsed into their full paths with `path.resolve`.\nGlobbing patterns are supported.\n\n#### exclude\nType: `[String]`\n\nSpecifies files to be excluded in the browserify bundle.\nString filenames are parsed into their full paths with `path.resolve`.\nGlobbing patterns are supported.\n\n#### external\nType: `[String]` or `[String:String]`.\n\nSpecifies id strings which will be loaded from a previously loaded, “common” bundle.\nThat is to say, files in the bundle that require the target String will assume\nthat the target is provided externally.\n\nThe secondary form of this option\nfollows the format of `alias` above, and will externalise the ids specified in\nthe alias array. This second form allows for the declaration of a single alias\narray which can be supplied to one bundle\'s `alias` option and another option\'s\n`external` option.\n\nIn either case, globbing patterns are supported.\n\n\n#### transform\nType: `[String || Function]` or `[[String || Function,  Object]]`\n\nSpecifies a pipeline of functions (or modules) through which the browserified bundle will be run. The transform can either be a literal function, or a string referring to a NPM module. The [browserify docs themselves](https://github.com/substack/node-browserify#btransformtr) explain transform well, but below is an example of transform used with `grunt-browserify` to automatically compile coffeescript files for use in a bundle:\n\n```javascript\nbrowserify: {\n  dist: {\n    files: {\n      \'build/module.js\': [\'client/scripts/**/*.js\', \'client/scripts/**/*.coffee\'],\n    },\n    options: {\n      transform: [\'coffeeify\']\n    }\n  }\n}\n```\n\nTransforms can also be provided with an options hash; in this case, the transform should be specified as an array of `[transformStringOrFn, optionsHash]`.\n\n#### plugin\nType: `[String || Function]`\nRegister a browserify plugin with the bundle. As with transforms, plugins are identified with either their NPM name (String) or a function literal.\n\n#### browserifyOptions\nType: Object\nA hash of options that are passed to browserify during instantiation.\n\n#### bundleOptions\nType: Object\nA hash of options that are passed to `browserify. bundle`. If you are interested in generating\nsource maps, you can pass `debug: true` here. Other `bundleOptions` can be found on the\n[Browserify Github README](https://github.com/substack/node-browserify#bbundleopts-cb).\n\n#### watch\nType: Boolean\nIf true, invoke [watchify](https://github.com/substack/watchify) instead of browserify.\n\n#### keepAlive\nType: Boolean\nIf true and if `watch` above is true, keep the Grunt process alive (simulates grunt-watch functionality).\n\n#### preBundleCB\nType: `Function (b)`\n\nAn optional callback function, that will be called before bundle completion.\n`b` is the `browerify` instance that will output the bundle.\n\n#### postBundleCB\nType: `Function (err, src, next)`\n\nAn optional callback function, which will be called after bundle completion and\nbefore writing of the bundle. The `err` and `src` arguments are provided\ndirectly from browserify. The `next` callback should be called with `(err,\nmodifiedSrc)`; the `modifiedSrc` is what will be written to the output file.\n\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.\n\n## Release History\n\n### v0.1.0\n  - Initial release\n\n### v0.1.1\n  - Properly support compact and full grunt task syntax\n\n### v0.2.0\n  - Add support for Browserify 2\n\n### v0.2.4\n  - Add externalize option, to expose modules to external bundles\n  - Add browserify-shim support\n  - Completely rewrote and significantly improved tests\n  - Various fixes\n\n### v0.2.5\n  - Update externalize to expose npm modules to external bundles\n\n### v1.0.0\n  - Really should\'ve been released at v0.2, but better late than never!\n\n### v1.0.2\n  - Move away from browserify-stream to callback approach\n\n### v1.0.3\n  - Add new aliasMappings functionality\n\n### v1.0.4\n  - Adding directory support for `external` parameter\n\n### v1.0.5\n  - Bumping to latest Browserify (2.18.x)\n\n### v1.1.0\n  - Added support for noParse option\n  - Change browserify() call to pass files as opts.entries\n\n### v1.1.1\n  - Fix regression where shimmed modules not being parsed\n\n### v1.2\n  - `Externalize` has been deprecated in favor of `alias` (#69)\n  - Allow `external` to use module names, in addition to file paths (#68). Waiting on Browserify changes for this to actually work.\n  - Much improved docs (#67)\n  - Allow non-files to be ignored (#50), via @joshuarubin\n\n### v1.2.1\n  - Bumping dependency versions\n\n### v1.2.2\n  - Change `alias` destination behavior to only treat the destination as a\n    filepath if it exists\n\n### v1.2.3\n  - Allow aliasing with arbitrary ids. For example, you could alias `./vendor/client/jquery/jquery.js` to `/vendor/jquery`\n  for consumption by other bundles. See the updated `complex` and `externals` examples\n\n### v1.2.4\n  - Flatten options arrays, to prevent any weird behavior (via @joeybaker)\n\n### v1.2.5\n  - Documentation fix (via @alanshaw)\n  - Allow aliasing inner modules (via @bananushka)\n  - Fix multitask shim bug (via @byronmwong)\n\n### v1.2.6\n  - Move browserify to a peer dependency, to allow custom versions (via @nrn)\n  - Add support for browserify extension flag (from browserify v2.31)\n\n### v1.2.7\n  - Fix bug in sharing shimmed files across bundles (#89)\n\n### v1.2.8\n  - Add postBundle callback support (via @Bockit)\n\n### v1.2.9\n  - Fix peerDependency version requirements\n\n### v1.2.10\n  - Fix #106\n\n### v1.2.11\n  - Move to browserify 2.35 for upstream dedupe fix\n\n### v1.2.12\n  - Add `preBundleCB` option (via @alexstrat)\n\n### v1.3.0\n  - Bump to Browserify v3\n\n### v1.3.1\n  - Adding support for Browserify 3.2 paths (via @trevordixon)\n\n### v1.3.2\n  - Adding `require` and global `transform` options.\n\n### v2.0.1\n- Complete rewrite of grunt-browserify internals, and update of the API.\n(2.0.0 was mis-published to NPM and removed).\n\n### v2.0.2\n- Remove browserify-shim dependency, since it\'s now an optional transform\n\n### v2.0.3\n- Restore keepAlive and watch support.\n\n### v2.0.4\n- Allow `alias` to work with modules. (via @daviwil)\n\n### v2.0.5\n- Update deps\n\n### v2.0.6\n- Add support for globbing patterns for ignore, exclude, and external\n\n### v2.0.7\n- Allow watchify bundle updates to fail without killing grunt\n\n## License\nCopyright (c) 2013-2014 Justin Reidy\nLicensed under the MIT license.\n',
+59 silly resolved     readmeFilename: 'README.md',
+59 silly resolved     _id: 'grunt-browserify@2.0.7',
+59 silly resolved     _from: 'grunt-browserify@~2.0.1' } ]
+60 info install grunt-browserify@2.0.7 into /home/ubuntu/lahacks/leapjs
+61 info installOne grunt-browserify@2.0.7
+62 info /home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify unbuild
+63 verbose tar unpack /home/ubuntu/.npm/grunt-browserify/2.0.7/package.tgz
+64 silly lockFile 0d77ba1e-js-node-modules-grunt-browserify tar:///home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify
+65 verbose lock tar:///home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify /home/ubuntu/.npm/0d77ba1e-js-node-modules-grunt-browserify.lock
+66 silly lockFile 0f42167d-unt-browserify-2-0-7-package-tgz tar:///home/ubuntu/.npm/grunt-browserify/2.0.7/package.tgz
+67 verbose lock tar:///home/ubuntu/.npm/grunt-browserify/2.0.7/package.tgz /home/ubuntu/.npm/0f42167d-unt-browserify-2-0-7-package-tgz.lock
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm extractEntry .npmignore
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm extractEntry Gruntfile.js
+73 silly gunzTarPerm extractEntry LICENSE-MIT
+74 silly gunzTarPerm extractEntry .travis.yml
+75 silly gunzTarPerm extractEntry examples/basic/package.json
+76 silly gunzTarPerm extractEntry examples/basic/Gruntfile.js
+77 silly gunzTarPerm extractEntry examples/basic/client/basic.js
+78 silly gunzTarPerm extractEntry examples/basic/client/test.js
+79 silly gunzTarPerm extractEntry examples/basic/lib/moments.js
+80 silly gunzTarPerm extractEntry examples/basic/public/app.js
+81 silly gunzTarPerm extractEntry examples/basic/public/main.js
+82 silly gunzTarPerm extractEntry examples/basic/public/vendor.js
+83 silly gunzTarPerm extractEntry examples/basic/public/index.html
+84 silly gunzTarPerm extractEntry examples/watch/package.json
+85 silly gunzTarPerm extractEntry examples/watch/Gruntfile.js
+86 silly gunzTarPerm extractEntry examples/watch/client/basic.js
+87 silly gunzTarPerm extractEntry examples/watch/client/test.js
+88 silly gunzTarPerm extractEntry examples/watch/lib/moments.js
+89 silly gunzTarPerm extractEntry examples/watch/public/app.js
+90 silly gunzTarPerm extractEntry examples/watch/public/main.js
+91 silly gunzTarPerm extractEntry examples/watch/public/vendor.js
+92 silly gunzTarPerm extractEntry examples/watch/public/index.html
+93 silly gunzTarPerm extractEntry lib/runner.js
+94 silly gunzTarPerm extractEntry .jshintrc
+95 silly gunzTarPerm extractEntry tasks/browserify.js
+96 silly gunzTarPerm extractEntry test/browserify.test.js
+97 silly gunzTarPerm extractEntry test/fixtures/externalize/a.js
+98 silly gunzTarPerm extractEntry test/fixtures/externalize/b.js
+99 silly gunzTarPerm extractEntry test/fixtures/externalize/entry.js
+100 silly gunzTarPerm extractEntry test/fixtures/alias/entry.js
+101 silly gunzTarPerm extractEntry test/fixtures/alias/toBeAliased.js
+102 silly gunzTarPerm extractEntry test/fixtures/basic/a.js
+103 silly gunzTarPerm extractEntry test/fixtures/basic/b.js
+104 silly gunzTarPerm extractEntry test/fixtures/basic/basic.js
+105 silly gunzTarPerm extractEntry test/fixtures/extension/a.js
+106 silly gunzTarPerm extractEntry test/fixtures/extension/extension.js
+107 silly gunzTarPerm extractEntry test/fixtures/extension/b.fjs
+108 silly gunzTarPerm extractEntry test/fixtures/external/a.js
+109 silly gunzTarPerm extractEntry test/fixtures/external/alias.js
+110 silly gunzTarPerm extractEntry test/fixtures/external/b.js
+111 silly gunzTarPerm extractEntry test/fixtures/external/entry.js
+112 silly gunzTarPerm extractEntry test/fixtures/external-dir/a.js
+113 silly gunzTarPerm extractEntry test/fixtures/external-dir/entry.js
+114 silly gunzTarPerm extractEntry test/fixtures/external-dir/b/index.js
+115 silly gunzTarPerm extractEntry test/fixtures/aliasMappings/entry.js
+116 silly gunzTarPerm extractEntry test/fixtures/aliasMappings/root.js
+117 silly gunzTarPerm extractEntry test/fixtures/aliasMappings/foo/foo.js
+118 silly gunzTarPerm extractEntry test/fixtures/aliasMappings/foo/bar/foobar.js
+119 silly gunzTarPerm extractEntry test/fixtures/ignore/a.js
+120 silly gunzTarPerm extractEntry test/fixtures/ignore/b.js
+121 silly gunzTarPerm extractEntry test/fixtures/ignore/entry.js
+122 silly gunzTarPerm extractEntry test/fixtures/ignore/ignore.js
+123 silly gunzTarPerm extractEntry test/fixtures/ignore/os.js
+124 silly gunzTarPerm extractEntry test/fixtures/noParse/a.js
+125 silly gunzTarPerm extractEntry test/fixtures/noParse/jquery.js
+126 silly gunzTarPerm extractEntry test/fixtures/noParse/noParse.js
+127 silly gunzTarPerm extractEntry test/fixtures/paths/paths.js
+128 silly gunzTarPerm extractEntry test/fixtures/shim/a.js
+129 silly gunzTarPerm extractEntry test/fixtures/shim/jquery.js
+130 silly gunzTarPerm extractEntry test/fixtures/shim/shim.js
+131 silly gunzTarPerm extractEntry test/fixtures/watch/a.js
+132 silly gunzTarPerm extractEntry test/fixtures/watch/b.js
+133 silly gunzTarPerm extractEntry test/fixtures/watch/basic.js
+134 silly lockFile 0d77ba1e-js-node-modules-grunt-browserify tar:///home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify
+135 silly lockFile 0d77ba1e-js-node-modules-grunt-browserify tar:///home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify
+136 silly lockFile 0f42167d-unt-browserify-2-0-7-package-tgz tar:///home/ubuntu/.npm/grunt-browserify/2.0.7/package.tgz
+137 silly lockFile 0f42167d-unt-browserify-2-0-7-package-tgz tar:///home/ubuntu/.npm/grunt-browserify/2.0.7/package.tgz
+138 info preinstall grunt-browserify@2.0.7
+139 verbose readDependencies using package.json deps
+140 verbose readDependencies using package.json deps
+141 verbose cache add [ 'lodash@~2.4.1', null ]
+142 verbose cache add name=undefined spec="lodash@~2.4.1" args=["lodash@~2.4.1",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'lodash@~2.4.1',
+143 verbose parsed url   path: 'lodash@~2.4.1',
+143 verbose parsed url   href: 'lodash@~2.4.1' }
+144 verbose cache add name="lodash" spec="~2.4.1" args=["lodash","~2.4.1"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '~2.4.1',
+145 verbose parsed url   path: '~2.4.1',
+145 verbose parsed url   href: '~2.4.1' }
+146 verbose addNamed [ 'lodash', '~2.4.1' ]
+147 verbose addNamed [ null, '>=2.4.1-0 <2.5.0-0' ]
+148 silly lockFile 257f9ab3-lodash-2-4-1 lodash@~2.4.1
+149 verbose lock lodash@~2.4.1 /home/ubuntu/.npm/257f9ab3-lodash-2-4-1.lock
+150 verbose cache add [ 'async@~0.7.0', null ]
+151 verbose cache add name=undefined spec="async@~0.7.0" args=["async@~0.7.0",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'async@~0.7.0',
+152 verbose parsed url   path: 'async@~0.7.0',
+152 verbose parsed url   href: 'async@~0.7.0' }
+153 verbose cache add name="async" spec="~0.7.0" args=["async","~0.7.0"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '~0.7.0',
+154 verbose parsed url   path: '~0.7.0',
+154 verbose parsed url   href: '~0.7.0' }
+155 verbose addNamed [ 'async', '~0.7.0' ]
+156 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+157 silly lockFile e0c133c9-async-0-7-0 async@~0.7.0
+158 verbose lock async@~0.7.0 /home/ubuntu/.npm/e0c133c9-async-0-7-0.lock
+159 verbose cache add [ 'watchify@~0.6.4', null ]
+160 verbose cache add name=undefined spec="watchify@~0.6.4" args=["watchify@~0.6.4",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'watchify@~0.6.4',
+161 verbose parsed url   path: 'watchify@~0.6.4',
+161 verbose parsed url   href: 'watchify@~0.6.4' }
+162 verbose cache add name="watchify" spec="~0.6.4" args=["watchify","~0.6.4"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '~0.6.4',
+163 verbose parsed url   path: '~0.6.4',
+163 verbose parsed url   href: '~0.6.4' }
+164 verbose addNamed [ 'watchify', '~0.6.4' ]
+165 verbose addNamed [ null, '>=0.6.4-0 <0.7.0-0' ]
+166 silly lockFile a0215e17-watchify-0-6-4 watchify@~0.6.4
+167 verbose lock watchify@~0.6.4 /home/ubuntu/.npm/a0215e17-watchify-0-6-4.lock
+168 verbose cache add [ 'resolve@~0.6.2', null ]
+169 verbose cache add name=undefined spec="resolve@~0.6.2" args=["resolve@~0.6.2",null]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: 'resolve@~0.6.2',
+170 verbose parsed url   path: 'resolve@~0.6.2',
+170 verbose parsed url   href: 'resolve@~0.6.2' }
+171 verbose cache add name="resolve" spec="~0.6.2" args=["resolve","~0.6.2"]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: '~0.6.2',
+172 verbose parsed url   path: '~0.6.2',
+172 verbose parsed url   href: '~0.6.2' }
+173 verbose addNamed [ 'resolve', '~0.6.2' ]
+174 verbose addNamed [ null, '>=0.6.2-0 <0.7.0-0' ]
+175 silly lockFile 47f11016-resolve-0-6-2 resolve@~0.6.2
+176 verbose lock resolve@~0.6.2 /home/ubuntu/.npm/47f11016-resolve-0-6-2.lock
+177 verbose cache add [ 'glob@^3.2.9', null ]
+178 verbose cache add name=undefined spec="glob@^3.2.9" args=["glob@^3.2.9",null]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: 'glob@^3.2.9',
+179 verbose parsed url   path: 'glob@^3.2.9',
+179 verbose parsed url   href: 'glob@^3.2.9' }
+180 verbose cache add name="glob" spec="^3.2.9" args=["glob","^3.2.9"]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: '^3.2.9',
+181 verbose parsed url   path: '^3.2.9',
+181 verbose parsed url   href: '^3.2.9' }
+182 verbose addNamed [ 'glob', '^3.2.9' ]
+183 verbose addNamed [ null, null ]
+184 silly lockFile f08cf924-glob-3-2-9 glob@^3.2.9
+185 verbose lock glob@^3.2.9 /home/ubuntu/.npm/f08cf924-glob-3-2-9.lock
+186 silly addNameRange { name: 'lodash', range: '>=2.4.1-0 <2.5.0-0', hasData: false }
+187 silly addNameRange { name: 'async', range: '>=0.7.0-0 <0.8.0-0', hasData: false }
+188 silly addNameRange { name: 'watchify', range: '>=0.6.4-0 <0.7.0-0', hasData: false }
+189 silly addNameRange { name: 'resolve', range: '>=0.6.2-0 <0.7.0-0', hasData: false }
+190 info addNameTag [ 'glob', '^3.2.9' ]
+191 verbose url raw lodash
+192 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+193 verbose url resolved https://registry.npmjs.org/lodash
+194 info trying registry request attempt 1 at 11:01:14
+195 verbose etag "4FLHUJN21BJEYHBE3CMAKTF8K"
+196 http GET https://registry.npmjs.org/lodash
+197 verbose url raw async
+198 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+199 verbose url resolved https://registry.npmjs.org/async
+200 info trying registry request attempt 1 at 11:01:14
+201 verbose etag "2ZILXDAUL69KX9VULE4UDVY6I"
+202 http GET https://registry.npmjs.org/async
+203 verbose url raw watchify
+204 verbose url resolving [ 'https://registry.npmjs.org/', './watchify' ]
+205 verbose url resolved https://registry.npmjs.org/watchify
+206 info trying registry request attempt 1 at 11:01:14
+207 verbose etag "44W257L2P8899NSDB4D5GTUD4"
+208 http GET https://registry.npmjs.org/watchify
+209 verbose url raw resolve
+210 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+211 verbose url resolved https://registry.npmjs.org/resolve
+212 info trying registry request attempt 1 at 11:01:14
+213 verbose etag "CSM2C6T4EB7PU628DOSCKBX9"
+214 http GET https://registry.npmjs.org/resolve
+215 verbose url raw glob
+216 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+217 verbose url resolved https://registry.npmjs.org/glob
+218 info trying registry request attempt 1 at 11:01:14
+219 verbose etag "BNJFRDZHS69RJ8YE9UTYH7975"
+220 http GET https://registry.npmjs.org/glob
+221 http 304 https://registry.npmjs.org/lodash
+222 silly registry.get cb [ 304,
+222 silly registry.get   { date: 'Sat, 12 Apr 2014 10:55:29 GMT',
+222 silly registry.get     server: 'Apache',
+222 silly registry.get     via: '1.1 varnish',
+222 silly registry.get     'last-modified': 'Sat, 12 Apr 2014 10:55:30 GMT',
+222 silly registry.get     'cache-control': 'max-age=1',
+222 silly registry.get     etag: '"4FLHUJN21BJEYHBE3CMAKTF8K"',
+222 silly registry.get     'x-served-by': 'cache-lax1422-LAX',
+222 silly registry.get     'x-cache': 'HIT',
+222 silly registry.get     'x-cache-hits': '1',
+222 silly registry.get     'x-timer': 'S1397300129.950825691,VS0,VE64',
+222 silly registry.get     vary: 'Accept',
+222 silly registry.get     'content-length': '0',
+222 silly registry.get     'keep-alive': 'timeout=10, max=50',
+222 silly registry.get     connection: 'Keep-Alive' } ]
+223 verbose etag lodash from cache
+224 http 304 https://registry.npmjs.org/async
+225 silly registry.get cb [ 304,
+225 silly registry.get   { date: 'Sat, 12 Apr 2014 10:55:29 GMT',
+225 silly registry.get     server: 'Apache',
+225 silly registry.get     via: '1.1 varnish',
+225 silly registry.get     'last-modified': 'Sat, 12 Apr 2014 10:55:30 GMT',
+225 silly registry.get     'cache-control': 'max-age=1',
+225 silly registry.get     etag: '"2ZILXDAUL69KX9VULE4UDVY6I"',
+225 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+225 silly registry.get     'x-cache': 'HIT',
+225 silly registry.get     'x-cache-hits': '1',
+225 silly registry.get     'x-timer': 'S1397300129.954638243,VS0,VE65',
+225 silly registry.get     vary: 'Accept',
+225 silly registry.get     'content-length': '0',
+225 silly registry.get     'keep-alive': 'timeout=10, max=50',
+225 silly registry.get     connection: 'Keep-Alive' } ]
+226 verbose etag async from cache
+227 http 304 https://registry.npmjs.org/glob
+228 silly registry.get cb [ 304,
+228 silly registry.get   { date: 'Sat, 12 Apr 2014 10:55:29 GMT',
+228 silly registry.get     server: 'Apache',
+228 silly registry.get     via: '1.1 varnish',
+228 silly registry.get     'last-modified': 'Sat, 12 Apr 2014 10:55:30 GMT',
+228 silly registry.get     'cache-control': 'max-age=1',
+228 silly registry.get     etag: '"BNJFRDZHS69RJ8YE9UTYH7975"',
+228 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+228 silly registry.get     'x-cache': 'HIT',
+228 silly registry.get     'x-cache-hits': '1',
+228 silly registry.get     'x-timer': 'S1397300129.967553854,VS0,VE65',
+228 silly registry.get     vary: 'Accept',
+228 silly registry.get     'content-length': '0',
+228 silly registry.get     'keep-alive': 'timeout=10, max=50',
+228 silly registry.get     connection: 'Keep-Alive' } ]
+229 verbose etag glob from cache
+230 silly addNameRange number 2 { name: 'lodash', range: '>=2.4.1-0 <2.5.0-0', hasData: true }
+231 silly addNameRange versions [ 'lodash',
+231 silly addNameRange   [ '0.1.0',
+231 silly addNameRange     '0.2.0',
+231 silly addNameRange     '0.2.1',
+231 silly addNameRange     '0.2.2',
+231 silly addNameRange     '0.3.0',
+231 silly addNameRange     '0.3.1',
+231 silly addNameRange     '0.3.2',
+231 silly addNameRange     '0.4.0',
+231 silly addNameRange     '0.4.1',
+231 silly addNameRange     '0.4.2',
+231 silly addNameRange     '0.5.0-rc.1',
+231 silly addNameRange     '0.5.0',
+231 silly addNameRange     '0.5.1',
+231 silly addNameRange     '0.5.2',
+231 silly addNameRange     '0.6.0',
+231 silly addNameRange     '0.6.1',
+231 silly addNameRange     '0.7.0',
+231 silly addNameRange     '0.8.0',
+231 silly addNameRange     '0.8.1',
+231 silly addNameRange     '0.8.2',
+231 silly addNameRange     '0.9.0',
+231 silly addNameRange     '0.9.1',
+231 silly addNameRange     '0.9.2',
+231 silly addNameRange     '0.10.0',
+231 silly addNameRange     '1.0.0-rc.1',
+231 silly addNameRange     '1.0.0-rc.2',
+231 silly addNameRange     '1.0.0-rc.3',
+231 silly addNameRange     '1.0.0',
+231 silly addNameRange     '1.0.1',
+231 silly addNameRange     '1.1.0',
+231 silly addNameRange     '1.1.1',
+231 silly addNameRange     '1.2.0',
+231 silly addNameRange     '1.2.1',
+231 silly addNameRange     '1.3.0',
+231 silly addNameRange     '1.3.1',
+231 silly addNameRange     '2.0.0',
+231 silly addNameRange     '2.1.0',
+231 silly addNameRange     '2.2.0',
+231 silly addNameRange     '2.2.1',
+231 silly addNameRange     '2.3.0',
+231 silly addNameRange     '2.4.0',
+231 silly addNameRange     '2.4.1' ] ]
+232 verbose addNamed [ 'lodash', '2.4.1' ]
+233 verbose addNamed [ '2.4.1', '2.4.1' ]
+234 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+235 verbose lock lodash@2.4.1 /home/ubuntu/.npm/8502be2a-lodash-2-4-1.lock
+236 silly addNameRange number 2 { name: 'async', range: '>=0.7.0-0 <0.8.0-0', hasData: true }
+237 silly addNameRange versions [ 'async',
+237 silly addNameRange   [ '0.1.0',
+237 silly addNameRange     '0.1.1',
+237 silly addNameRange     '0.1.2',
+237 silly addNameRange     '0.1.3',
+237 silly addNameRange     '0.1.4',
+237 silly addNameRange     '0.1.5',
+237 silly addNameRange     '0.1.6',
+237 silly addNameRange     '0.1.7',
+237 silly addNameRange     '0.1.8',
+237 silly addNameRange     '0.1.9',
+237 silly addNameRange     '0.1.10',
+237 silly addNameRange     '0.1.11',
+237 silly addNameRange     '0.1.12',
+237 silly addNameRange     '0.1.13',
+237 silly addNameRange     '0.1.14',
+237 silly addNameRange     '0.1.15',
+237 silly addNameRange     '0.1.16',
+237 silly addNameRange     '0.1.17',
+237 silly addNameRange     '0.1.18',
+237 silly addNameRange     '0.1.19',
+237 silly addNameRange     '0.1.20',
+237 silly addNameRange     '0.1.21',
+237 silly addNameRange     '0.1.22',
+237 silly addNameRange     '0.2.0',
+237 silly addNameRange     '0.2.1',
+237 silly addNameRange     '0.2.2',
+237 silly addNameRange     '0.2.3',
+237 silly addNameRange     '0.2.4',
+237 silly addNameRange     '0.2.5',
+237 silly addNameRange     '0.2.6',
+237 silly addNameRange     '0.2.7',
+237 silly addNameRange     '0.2.8',
+237 silly addNameRange     '0.2.9',
+237 silly addNameRange     '0.2.10',
+237 silly addNameRange     '0.3.0',
+237 silly addNameRange     '0.4.0',
+237 silly addNameRange     '0.4.1',
+237 silly addNameRange     '0.5.0',
+237 silly addNameRange     '0.6.0',
+237 silly addNameRange     '0.6.1',
+237 silly addNameRange     '0.6.2',
+237 silly addNameRange     '0.7.0' ] ]
+238 verbose addNamed [ 'async', '0.7.0' ]
+239 verbose addNamed [ '0.7.0', '0.7.0' ]
+240 silly lockFile d41a529a-async-0-7-0 async@0.7.0
+241 verbose lock async@0.7.0 /home/ubuntu/.npm/d41a529a-async-0-7-0.lock
+242 silly lockFile f08cf924-glob-3-2-9 glob@^3.2.9
+243 silly lockFile f08cf924-glob-3-2-9 glob@^3.2.9
+244 verbose about to build /home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify
+245 info /home/ubuntu/lahacks/leapjs/node_modules/grunt-browserify unbuild
+246 info preuninstall grunt-browserify@2.0.7
+247 info uninstall grunt-browserify@2.0.7
+248 verbose true,/home/ubuntu/lahacks/leapjs/node_modules,/home/ubuntu/lahacks/leapjs/node_modules unbuild grunt-browserify@2.0.7
+249 info postuninstall grunt-browserify@2.0.7
+250 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+251 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+252 silly lockFile d41a529a-async-0-7-0 async@0.7.0
+253 silly lockFile d41a529a-async-0-7-0 async@0.7.0
+254 silly lockFile 257f9ab3-lodash-2-4-1 lodash@~2.4.1
+255 silly lockFile 257f9ab3-lodash-2-4-1 lodash@~2.4.1
+256 silly lockFile e0c133c9-async-0-7-0 async@~0.7.0
+257 silly lockFile e0c133c9-async-0-7-0 async@~0.7.0
+258 error Error: No compatible version found: glob@'^3.2.9'
+258 error Valid install targets:
+258 error ["1.1.0","2.0.9","2.0.8","2.0.7","2.1.0","3.0.0","3.0.1","3.1.0","3.1.1","3.1.2","3.1.3","3.1.4","3.1.5","3.1.6","3.1.7","3.1.9","3.1.10","3.1.11","3.1.12","3.1.13","3.1.14","3.1.15","3.1.16","3.1.17","3.1.18","3.1.19","3.1.20","3.1.21","3.2.0","3.2.1","3.2.3","3.2.4","3.2.5","3.2.6","3.2.7","3.2.8","3.2.9"]
+258 error     at installTargetsError (/usr/lib/node_modules/npm/lib/cache.js:719:10)
+258 error     at /usr/lib/node_modules/npm/lib/cache.js:638:10
+258 error     at saved (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+258 error     at /usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+258 error     at Object.oncomplete (fs.js:107:15)
+259 error If you need help, you may report this log at:
+259 error     <http://github.com/isaacs/npm/issues>
+259 error or email it to:
+259 error     <npm-@googlegroups.com>
+260 error System Linux 3.2.0-40-virtual
+261 error command "/usr/bin/node" "/usr/bin/npm" "install"
+262 error cwd /home/ubuntu/lahacks/leapjs
+263 error node -v v0.10.15
+264 error npm -v 1.3.5
+265 verbose exit [ 1, true ]
